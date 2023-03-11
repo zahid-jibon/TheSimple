@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+/* header */
+.header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #F6F6F6;
+}
+
+nav{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(24, 23, 23);
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #3CC6C5;
+}
+
+.icon{
+    height: 20px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.zahid-jibon{
+    margin-left: 8%;
+    margin-top: 12%;
+}
+
+.zahid-jibon h1{
+    font-size: 50px;
+    color: rgb(88, 88, 88);
+    margin-bottom: 20px;
+    font-weight: lighter;
+    word-spacing: 1px;
+}
+
+.zahid-jibon p{
+    font-size: 30px;
+    color: rgb(88, 88, 88);
+    margin-bottom: 5px;
+}
+
+.learn{
+    font-size: 20px;
+    color: #3CC6C5;
+    text-decoration: none;
+    padding: 20px;
+    margin: 40px;
+}
+
+.learn:hover{
+    color: black;
+}
+
+.image{
+    width: 50%;
+    height: 85%;
+    bottom: 0;
+    position: absolute;
+    right: 100px;
+}
+
+.image img{
+    height: 100%;
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+}
+
+
+/* service */
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    grid-gap: 1.5rem;
+    margin-top: 4rem;
+    height: 50vh;
+}
+
+.s-box{
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.s-box img{
+    width: 80px;
+    cursor: pointer;
+}
+
+.s-box h3{
+    cursor: pointer;
+    color: rgb(88, 88, 88);
+    margin: 4px 0 10px 0;
+    font-size: 1.2rem;
+    transition: 0.4s;
+}
+
+.s-box h3:hover{
+    color: #3CC6C5
+}
+
+.s-box p{
+    line-height: 1.7;
+}
+
+/* work */
+.work{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #F6F6F6;
+}
+
+.work img{
+    height: auto;
+    width: 450px;
+}
+
+.work-container{
+    width: 1130px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.service-container button{
+    background-color: #3CC6C5;
+    color: #F6F6F6;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px;
+    transition:  0.4s;
+    cursor: pointer;
+}
+.service-container button:hover{
+    background-color: #F6F6F6;
+    color: #3CC6C5;
+    border: 2px solid #3CC6C5;
+}
+
+/* catagory */
+
+/* Clint */
+
+.client{
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.client h1{
+    color: rgb(49, 47, 47);
+    text-align: center;
+}
+
+.client p{
+    color: rgb(49, 47, 47);
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.company{
+    background-color: #22313F;
+    margin-bottom: 0;
+}
+
+.company h1{
+    color: white;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.company p{
+    color: white;
+}
+
+.com{
+    border: 2px solid black;
+    margin: 25px;
+    background-color: #1D2B36;
+}
+
+.com h2{
+    color: rgb(224, 217, 217);
+    font-size: 25px;
+    padding: 15x;
+}
+
+.com h6{
+    color: rgb(224, 217, 217);
+    font-size: 15px;
+    padding: 15x;
+}
+
+/* card */
+.card{
+    width: 30%;
+    display: inline-block;
+    background-color: rgb(255, 254, 254);
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 15pxpx;
+    color: black;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+    align-items: center;
+    justify-content: center;
+    
+}
+#new h1,
+#new p
+{
+    text-align: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.images img{
+    width: 100%;
+}
+
+.btn{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    background-color: #3CC6C5;
+    color: #F6F6F6;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px;
+    transition:  0.4s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #F6F6F6;
+    color: #3CC6C5;
+    border: 2px solid #3CC6C5;
+}
+
+.card .title{
+    font-size: 20px;
+    text-align: center;
+}
+
+.card .des{
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* testimonial */
+.container{
+    color: rgb(252, 252, 252);
+    margin-top: 30px;
+    background-blend-mode: darken;
+    background: rgba(13, 31, 49, 0.9)url(../image/images.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px; 
+    background-position: center;
+}
+
+.testimonial{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    padding: 50px 0;
+    row-gap: 30px;
+
+}
+
+
+.testi-content h1{
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.testimonial .slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.slide p{
+    text-align: center;
+    padding: 0 100px;
+    font-size: 15px;
+    font-weight: 100;
+    color: aliceblue;
+}
+
+.slide h3{
+    text-align: center;
+    padding: 0 100px;
+    font-size: 15px;
+    font-weight: 300;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+/* perfect */
+.container1{
+    color: rgb(32, 31, 31);
+    margin-top: 30px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.perfect{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    padding: 50px 0;
+    row-gap: 30px;
+
+}
+
+
+.testi-content1 h1{
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.testi-content1 .slide1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.slide1 p{
+    text-align: center;
+    padding: 0 50px;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(37, 37, 37);
+}
+
+ .iconn{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 330px;
+    cursor: pointer;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 75vh;
+    padding: 50px 0 20px;
+    font-size: 15px
+}
+
+.row{
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: rgb(24, 23, 23);
+    padding: 2%;
+    color: #fff;
+}
+
+.col{
+    flex-basis: 25%;
+    padding: 2px;
+}
+
+.logoo{
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.col .comment{
+    margin: 15px;
+}
+
+.last{
+    background-color: rgb(15, 15, 15);
+    color: rgb(224, 224, 224);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.last .copy{
+    text-align: left;
+    margin-left: 20px;
+    padding: 25px 10px;
+    margin-bottom: 0px;
+}
+
+.last .copy .uss{
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    position: relative;
+    padding: 5px 5px;
+    left: 75%;
+    height: 25px;
+    width: 25px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.last .copy .uss:hover{
+    border: 2PX solid rgb(124, 123, 123);
+    background-color: #F6F6F6;
+}
+
+
+
